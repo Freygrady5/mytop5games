@@ -1,0 +1,256 @@
+/* Main page stuff-----------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-color: rgb(150, 150, 150);
+    font-size: 135%
+    
+}
+.wrapper{
+    background-color: rgb(25, 24, 24);
+    width: 1200px;
+    margin:0 auto;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+header{
+    text-align: center;
+    font-size: 270%;
+    color:rgb(173, 36, 36);
+    background-color: rgb(186, 183, 183);
+    /* maybe put image as background like from the flower page */
+    padding: .5em;
+    text-shadow:
+    1px -1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 113%;
+}
+
+main{
+    color:white;
+    padding: .3em;
+    font-size: 130%;
+    line-height: 1.3;
+}
+
+nav{
+    text-transform: uppercase;
+    background-color: #4b4b4e;
+}
+
+nav li{
+    list-style-type: none;
+    padding: .5em;
+}
+
+main h3{
+    font-size: 120%;
+    border-bottom: 3px solid white;
+}
+
+nav li a:hover{
+    background-color: rgb(255, 254, 254);
+    border-radius: 2em;
+}
+
+.footer{
+    text-transform: uppercase;
+    background-color: #4b4b4e;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer li{
+    list-style-type: none;
+    padding: .2em
+}
+
+
+/*Metro 2033 specific changes------------------------------------------------------------------------------------------------------------------------------*/
+.pic-right{
+    float: right;
+    border: 3px solid rgb(173, 36, 36);
+    margin: .2em;
+}
+
+.pic-left{
+    float: left;
+    margin: .4em;
+    border: 3px solid rgb(173, 36, 36);
+    
+}
+
+main h1{
+    font-size:300%;
+    text-align: center;
+    color:rgb(173, 36, 36);
+    text-shadow:
+    1px -1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255);
+}
+
+nav li a{
+    color: rgb(173, 36, 36);
+    text-decoration: none;
+    font-size: 115%;
+    padding: .3em
+}
+
+.footer li a{
+    color: rgb(173, 36, 36);
+    text-decoration: none;
+}
+
+.purchasepagemetro{
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.purchasepagemetro a{
+    font-size: 135%;
+    color: rgb(173, 36, 36)
+}
+
+/*Team fortress 2 specific changes------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.tf2 header{
+    color: #ec8611
+}
+
+.tf2 .pic-right{
+    border: 3px solid #ec8611
+}
+
+.tf2 .pic-left{
+    float: left;
+    margin: .5em;
+    border: 3px solid #ec8611
+}
+
+.tf2 main h1{
+    color: #ec8611
+}
+
+.tf2 nav li a{
+    color:#ec8611
+}
+
+.tf2 .footer li a{
+    color: #ec8611
+}
+
+.purchasepagetf2 a{
+    font-size: 135%;
+    color: #ec8611
+}
+
+.purchasepagetf2{
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+/*Dishonored specific Changes---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.dishonored header{
+    color: rgb(57, 104, 142)
+}
+
+.dishonored .pic-right{
+    border: 3px solid rgb(57, 104, 142)
+}
+
+.dishonored .pic-left{
+    float: left;
+    margin: .5em;
+    border: 3px solid steelblue;
+}
+
+.dishonored main h1{
+    color: rgb(57, 104, 142)
+}
+
+.dishonored nav li a{
+    color:rgb(57, 104, 142)
+}
+
+.dishonored .footer li a{
+    color: rgb(57, 104, 142)
+}
+
+.purchasepagedis{
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.purchasepagedis a{
+    font-size: 135%;
+    color: steelblue;
+}
+
+/*Apex Legends specific Changes ------------------------------------------------------------------------------------------------------------------------------*/
+
+.apex header{
+    color: rgb(31, 139, 58)
+}
+
+.apex .pic-right{
+    border: 3px solid rgb(31, 139, 58);
+}
+
+.apex .pic-left{
+    float: left;
+    margin: .5em;
+    border: 3px solid rgb(31, 139, 58);
+}
+
+.apex main h1{
+    color: rgb(31, 139, 58)
+}
+
+.apex nav li a{
+    color:rgb(31, 139, 58)
+}
+
+.apex .footer li a{
+    color: rgb(31, 139, 58)
+}
+
+.purchasepageapex{
+    padding-bottom: 1em;
+    text-align:center;
+}
+
+.purchasepageapex a{
+    font-size: 135%;
+    color:rgb(31, 139, 58);
+}
+
+/*Tomb Raider edits-----------------------------------------------------------------------------------------*/
+.tomb header{
+    color: rgb(148, 9, 9)
+}
+
+.tomb nav li a{
+    color: rgb(161, 9, 9)
+}
+
+.tomb h1{
+    color: rgb(161, 10, 10);
+}
+
+.purchasepagetomb{
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.purchasepagetomb a{
+    font-size: 135%;
+    color: rgb(161, 10, 10)
+}
